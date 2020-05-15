@@ -13,7 +13,7 @@ sudo apt install apktool
 ```
 -Installer l'outil de detection QARK qui permet d'effectuer une analyse static des applications android 
 
-``bash
+```bash
 sudo apt install python-pip python3-pip
 sudo pip install --upgrade setuptools
 git clone https://github.com/linkedin/qark
