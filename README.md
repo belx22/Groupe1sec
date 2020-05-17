@@ -22,3 +22,4 @@ sudo pip install -r requirements.txt
 sudo pip install . --user  # --user is only needed if not using a virtualenv
 sudo qark --help
 ```
+-Installer l'outil de detection mobile security framework-mobfs 
