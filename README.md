@@ -25,6 +25,8 @@ sudo qark --help
 -Installer l'outil de detection mobile security framework-mobfs 
 * Linux
 ```bash
+Pour plus de detail https://mobsf.github.io/docs/#/
+
 git clone https://github.com/MobSF/Mobile-Security-Framework-MobSF.git
 cd Mobile-Security-Framework-MobSF
 pip3 install virtualenv
