@@ -23,3 +23,25 @@ sudo pip install . --user  # --user is only needed if not using a virtualenv
 sudo qark --help
 ```
 -Installer l'outil de detection mobile security framework-mobfs 
+* Linux
+```bash
+git clone https://github.com/MobSF/Mobile-Security-Framework-MobSF.git
+cd Mobile-Security-Framework-MobSF
+pip3 install virtualenv
+virtualenv -p python3 venv
+source venv/bin/activate
+pip3 install -r requirements.txt
+python3 manage.py runserver IP:PORT_NO
+```
+* Windows 
+```bash
+ - Install Git
+ - Install Anaconda Python 3.7 (3.8 is not supported)
+ - Install JDK 8+
+ - Install Microsoft Visual C++ Build Tools
+ - Install OpenSSL
+ - Download & Install wkhtmltopdf as per the wiki instructions and add the folder that contains wkhtmltopdf binary to environment variable PATH.
+- git clone https://github.com/MobSF/Mobile-Security-Framework-MobSF.git
+- cd Mobile-Security-Framework-MobSF
+- setup.bat
+```
